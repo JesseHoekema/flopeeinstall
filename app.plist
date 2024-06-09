@@ -1,0 +1,32 @@
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>items</key>
+    <array>
+        <dict>
+            <key>assets</key>
+            <array>
+                <dict>
+                    <key>kind</key>
+                    <string>software-package</string>
+                    <!-- Vervang "https://projects.jessehoekema.com/flopeeinstall/Payload.ipa" door de URL van je .ipa-bestand -->
+                    <key>url</key>
+                    <string>https://projects.jessehoekema.com/flopeeinstall/Payload.ipa</string>
+                </dict>
+            </array>
+            <key>metadata</key>
+            <dict>
+                <!-- Vervang "com.example.yourapp" door de bundle identifier van je app -->
+                <key>bundle-identifier</key>
+                <string>com.flopee.flopee</string>
+                <!-- Vervang "1.0.0" door de versie van je app -->
+                <key>bundle-version</key>
+                <string>1.1.0</string>
+                <!-- Vervang "Your App" door de naam van je app -->
+                <key>title</key>
+                <string>Flopee</string>
+            </dict>
+        </dict>
+    </array>
+</dict>
+</plist>
